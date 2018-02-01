@@ -8,7 +8,7 @@ import javax.persistence.Id
 class Girl {
     @Id
     @GeneratedValue
-    var id: Int = 0
-    var cupSize: String = "A"
-    var age: String = "20"
+    var id: Int ?= null
+    var cupSize: String ?= null
+    var age: Int ?= null
 }
